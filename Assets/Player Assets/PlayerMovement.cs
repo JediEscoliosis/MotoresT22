@@ -1,3 +1,4 @@
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody), typeof(CapsuleCollider))]
@@ -6,11 +7,16 @@ public class PlayerMovement : MonoBehaviour
     [Header("Movimiento")]
     [SerializeField] private float moveSpeed = 5f;
 
+    [Header("Rotacion")]
+    [SerializeField] private ThirdPersonCamera cameraController;
+    [SerializeField, Min(0.1f)] private float rotacionSmoothness = 12f;
+
     [Header("Camara")]
     [SerializeField] private Transform cameraTransform;
 
     [Header("Salto")]
     [SerializeField, Min(0f)] private float jumpHeight = 1.5f;
+    [SerializeField, Min(1f)] private float fallHeight = 2.5f;
 
     [Header("Deteccion del Suelo")]
     [SerializeField] private LayerMask groundLayers;
@@ -43,6 +49,8 @@ public class PlayerMovement : MonoBehaviour
         Move();
         CheckGround();
         Jump();
+        RotatePlayer();
+        FallGravity();
     }
 
     private void ReadInput()
@@ -143,5 +151,31 @@ public class PlayerMovement : MonoBehaviour
 
         Gizmos.matrix = previousMatrix;
         Gizmos.color = previousColor;
+    }
+
+    private void RotatePlayer()
+    {
+        //cuando apunta, se llama al script thirdPersonCamera
+        if (cameraController == null || cameraController.IsAiming)
+            return;
+
+        //para que sin movimiento conserve la rotacion
+        if (moveDirection.sqrMagnitude < 0.01f)
+            return;
+
+        quaternion targetRotation = Quaternion.LookRotation(moveDirection, Vector3.up);
+
+        float blend = 1f - Mathf.Exp (-rotacionSmoothness * Time.deltaTime);
+
+        rb.MoveRotation (Quaternion.Slerp (rb.rotation,targetRotation, blend));
+
+    }
+
+    private void FallGravity()
+    {
+        if (rb.linearVelocity.y < 0f)
+        {
+            rb.AddForce(Physics.gravity * (fallHeight - 1f), ForceMode.Acceleration);
+        }
     }
 }

@@ -84,7 +84,7 @@ public class ThirdPersonCamera : MonoBehaviour
         IsAiming = aimPressed;
 
 
-        //muestra u oculta la mira
+        //muestra y oculta la mira
         if (crosshair != null && crosshair.activeSelf != IsAiming)
         {
             crosshair.SetActive(IsAiming);
@@ -133,24 +133,14 @@ public class ThirdPersonCamera : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Quaternion targetRotation;
+        //si el Player no apunta, ejecuta lo de debajo.
+        if (!IsAiming)
+            return;
 
-        if(IsAiming)
-        {
-            // El personaje acompaña horizontalmente a la camara.
-            targetRotation = Quaternion.Euler(0f, horizontalRotacion, 0f);
-        }
-        else
-        {
-            // Sin apuntar, mira hacia donde se desplaza.
-            Vector3 direction = playerBody.linearVelocity; direction.y = 0f;
+        //convierte los angulos en grados para hacer la rotacion efectiva
+        Quaternion targetRotation = Quaternion.Euler (0f, horizontalRotacion, 0f);
 
-            if (direction.sqrMagnitude < 0.01f)
-                return;
-
-            targetRotation = Quaternion.LookRotation (direction, Vector3.up);
-        }
-
+        //aplica el giro al rigidbody
         playerBody.MoveRotation(Quaternion.RotateTowards(playerBody.rotation,targetRotation,playerTurnSpeed * Time.fixedDeltaTime));
     }
 
