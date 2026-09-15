@@ -59,8 +59,7 @@ public abstract class ArmBehaviour : MonoBehaviour
     {
         selectedObject = null;
 
-        Ray ray = aimCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f)
-);
+        Ray ray = aimCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
 
         // La camara puede estar detras del personaje.
         float rayLength =Vector3.Distance(ray.origin, transform.position) + activationRadius;
