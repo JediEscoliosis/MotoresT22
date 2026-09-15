@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Player Assets\\Arm Logic\\AttractorArm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player Assets\\Arm Logic\\AttractorArm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Player Assets\\Arm Logic\\RepulsorArm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player Assets\\Arm Logic\\RepulsorArm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Player Assets\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player Assets\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Player Assets\\Arm Logic\\ArmBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player Assets\\Arm Logic\\ArmBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,54 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RepulsorArm.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Player Assets\\Arm Logic\\RepulsorArm.cs",
-              "RelativeDocumentMoniker": "Assets\\Player Assets\\Arm Logic\\RepulsorArm.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Player Assets\\Arm Logic\\RepulsorArm.cs",
-              "RelativeToolTip": "Assets\\Player Assets\\Arm Logic\\RepulsorArm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T04:49:48.904Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AttractorArm.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Player Assets\\Arm Logic\\AttractorArm.cs",
-              "RelativeDocumentMoniker": "Assets\\Player Assets\\Arm Logic\\AttractorArm.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Player Assets\\Arm Logic\\AttractorArm.cs",
-              "RelativeToolTip": "Assets\\Player Assets\\Arm Logic\\AttractorArm.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T04:49:45.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Player Assets\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Player Assets\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Player Assets\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Player Assets\\PlayerMovement.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T02:34:03.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ArmBehaviour.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Player Assets\\Arm Logic\\ArmBehaviour.cs",
-              "RelativeDocumentMoniker": "Assets\\Player Assets\\Arm Logic\\ArmBehaviour.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Player Assets\\Arm Logic\\ArmBehaviour.cs",
-              "RelativeToolTip": "Assets\\Player Assets\\Arm Logic\\ArmBehaviour.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T13:26:24.574Z"
+              "WhenOpened": "2026-09-15T15:17:29.985Z",
+              "EditorCaption": ""
             }
           ]
         }
