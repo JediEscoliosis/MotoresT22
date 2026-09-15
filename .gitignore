@@ -1,10 +1,55 @@
-/[Ll]ibrary/
-
-/[Tt]emp/
-/[Oo]bj/
+# ==========================================
+# Archivos temporales, de compilación y caché
+# ==========================================
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
-/.vs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# Carpetas generadas automáticamente por Unity (recreables)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+
+# ==========================================
+# Proyectos generados por IDEs (Visual Studio / VS Code / Rider)
+# ==========================================
 *.csproj
+*.unityproj
 *.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Configuraciones de editores y herramientas
+.vscode/
+.idea/
+*.sln.DotSettings.user
+
+# Reportes de crash y dumps
+sysinfo.txt
+*.stackdump
+
+# ==========================================
+# Builds generados localmente
+# ==========================================
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ==========================================
+# Sistema operativo
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
