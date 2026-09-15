@@ -1,11 +1,14 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class AttractorArm : ArmBehaviour
 {
-    protected override Vector3 DefineDirection(Vector3 objPosition)
+    protected override bool IsActivated()
     {
-        return (transform.position - objPosition).normalized;
+        return Keyboard.current != null&& Keyboard.current.qKey.isPressed&& !Keyboard.current.eKey.isPressed;
     }
 
-    protected override Color GizmoColor() => Color.green;
+    protected override float DistanceDirection() => -1f;
+
+    protected override Color GizmoColor() => Color.red;
 }
