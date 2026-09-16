@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject deathPanel;
 
     [Header("Configuración de escenas")]
-    [SerializeField] private string menuSceneName = "MainMenu";
+    [SerializeField] private string menuSceneName = "Menu";
 
     private bool isPaused = false;
 
