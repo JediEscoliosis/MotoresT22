@@ -570,7 +570,7 @@ GameObject:
   - component: {fileID: 983920480}
   - component: {fileID: 983920481}
   m_Layer: 5
-  m_Name: "Men\xFA"
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

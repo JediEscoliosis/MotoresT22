@@ -14,9 +14,9 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        if (pausePanel != null) 
+        if (pausePanel != null)
             pausePanel.SetActive(false);
-        if (deathPanel != null) 
+        if (deathPanel != null)
             deathPanel.SetActive(false);
         Time.timeScale = 1f;
     }
@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
 
     public void TogglePause()
     {
-        if (isPaused) 
+        if (isPaused)
             ResumeGame();
         else PauseGame();
     }
@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
     public void PauseGame()
     {
         isPaused = true;
-        if (pausePanel != null) 
+        if (pausePanel != null)
             pausePanel.SetActive(true);
         Time.timeScale = 0f;
     }
@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
     public void ResumeGame()
     {
         isPaused = false;
-        if (pausePanel != null) 
+        if (pausePanel != null)
             pausePanel.SetActive(false);
         Time.timeScale = 1f;
     }
@@ -61,6 +61,7 @@ public class GameManager : MonoBehaviour
     {
         deathPanel.SetActive(true);
         Time.timeScale = 0f;
+        SetCursor(true);
     }
 
     // ---------- BOTONES ----------
@@ -75,5 +76,13 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(menuSceneName);
+    }
+
+    // ---------- CURSOR ----------
+
+    private void SetCursor(bool visible)
+    {
+        Cursor.visible = visible;
+        Cursor.lockState = visible ? CursorLockMode.None : CursorLockMode.Locked;
     }
 }
