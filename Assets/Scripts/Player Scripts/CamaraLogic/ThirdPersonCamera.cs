@@ -50,6 +50,9 @@ public class ThirdPersonCamera : MonoBehaviour
 
     private void Update()
     {
+        if (Time.timeScale == 0)
+            return;
+
         if (Mouse.current == null) 
            return;
 
@@ -146,6 +149,9 @@ public class ThirdPersonCamera : MonoBehaviour
 
     private void LateUpdate()
     {
+        if (Time.timeScale == 0)
+            return;
+
         // Mantiene la orbita independiente del giro del personaje.
         transform.rotation = Quaternion.Euler(0f, horizontalRotacion, 0f);
 
