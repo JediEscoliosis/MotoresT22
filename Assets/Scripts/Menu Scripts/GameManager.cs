@@ -23,6 +23,9 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        if (deathPanel != null && deathPanel.activeSelf)
+            return;
+
         if (Input.GetKeyDown(KeyCode.Escape))
             TogglePause();
     }

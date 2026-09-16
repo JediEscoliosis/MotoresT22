@@ -17,7 +17,7 @@ MonoBehaviour:
     x: 0
     y: 43
     width: 1920
-    height: 1117
+    height: 997
   m_ShowMode: 4
   m_Title: Hierarchy
   m_RootView: {fileID: 3}
@@ -40,7 +40,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 465
+    y: 406
     width: 1096
     height: 50
   m_MinSize: {x: 51, y: 76}
@@ -71,7 +71,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1920
-    height: 1117
+    height: 997
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -122,7 +122,7 @@ MonoBehaviour:
     x: 0
     y: 36
     width: 1920
-    height: 1061
+    height: 941
   m_MinSize: {x: 400, y: 150}
   m_MaxSize: {x: 32384, y: 24288}
   vertical: 0
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1097
+    y: 977
     width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -170,7 +170,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1096
-    height: 1061
+    height: 941
   m_MinSize: {x: 100, y: 150}
   m_MaxSize: {x: 8096, y: 24288}
   vertical: 1
@@ -194,7 +194,7 @@ MonoBehaviour:
     x: 1096
     y: 0
     width: 182
-    height: 1061
+    height: 941
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 14}
@@ -220,7 +220,7 @@ MonoBehaviour:
     x: 1278
     y: 0
     width: 263
-    height: 1061
+    height: 941
   m_MinSize: {x: 232, y: 276}
   m_MaxSize: {x: 10002, y: 10026}
   m_ActualView: {fileID: 16}
@@ -246,7 +246,7 @@ MonoBehaviour:
     x: 1541
     y: 0
     width: 379
-    height: 1061
+    height: 941
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 15}
@@ -272,7 +272,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1096
-    height: 465
+    height: 406
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 18}
@@ -296,9 +296,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 515
+    y: 456
     width: 1096
-    height: 546
+    height: 485
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 17}
@@ -328,7 +328,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 544
+    y: 430
     width: 1095
     height: 24
   m_SerializedDataModeController:
@@ -363,10 +363,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1096
-    y: 79
+    x: 1097
+    y: 24
     width: 180
-    height: 1035
+    height: 915
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -381,8 +381,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f0cb0000
-      m_LastClickedID: 52208
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: fab1ffffbeb2ffff60b8ffff1afbffff1cfbffffb8b50000eeb50000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -429,10 +429,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1541
-    y: 79
+    x: 1542
+    y: 24
     width: 378
-    height: 1035
+    height: 915
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -478,10 +478,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1278
-    y: 79
+    x: 1279
+    y: 24
     width: 261
-    height: 1035
+    height: 915
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -521,7 +521,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b0230000
     m_LastClickedID: 9136
-    m_ExpandedIDs: 0000000062b4000060b8000062b8000064b8000066b8000068b800006ab800006cb800006eb80000
+    m_ExpandedIDs: 000000003eb7000040b7000042b7000044b7000046b7000048b700004ab70000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -550,21 +550,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff0000000062b4000060b8000062b8000064b8000066b8000068b800006ab8000022cc0000
+    m_ExpandedIDs: 000000003eb7000040b7000042b7000044b7000046b7000048b700004ab70000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: PressurePlateBehaviour
-      m_OriginalName: PressurePlateBehaviour
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 53584
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 9}
@@ -630,9 +630,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 594
+    y: 480
     width: 1095
-    height: 520
+    height: 459
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -731,9 +731,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 1095
-    height: 439
+    height: 380
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1218,7 +1218,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -4.155356, y: 5.6575704, z: -5.6329083}
+    m_Target: {x: 1120.4203, y: 421.78827, z: -368.98035}
     speed: 2
     m_Value: {x: -4.155356, y: 5.6575704, z: -5.6329083}
   m_RenderMode: 0
@@ -1266,11 +1266,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.25053087, y: -0.024688717, z: 0.006393415, w: 0.9677865}
+    m_Target: {x: -0.012677219, y: 0.9867994, z: -0.09651817, w: -0.12951067}
     speed: 2
-    m_Value: {x: 0.25052753, y: -0.024688387, z: 0.0063933297, w: 0.96777356}
+    m_Value: {x: -0.25053087, y: 0.024688717, z: -0.006393415, w: -0.9677865}
   m_Size:
-    m_Target: 5.8261056
+    m_Target: 497.1398
     speed: 2
     m_Value: 5.8261056
   m_Ortho:
