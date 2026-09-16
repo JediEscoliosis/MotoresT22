@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nico\\Documents\\GitHub\\MotoresT22\\",
+  "WorkspaceRootPath": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2D15AE3-A2A7-DB59-D4F9-AA2A34D5BDF4}|Assembly-CSharp.csproj|c:\\users\\nico\\documents\\github\\motorest22\\assets\\scripts\\menu scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2D15AE3-A2A7-DB59-D4F9-AA2A34D5BDF4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player Scripts\\PlayerState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D15AE3-A2A7-DB59-D4F9-AA2A34D5BDF4}|Assembly-CSharp.csproj|c:\\users\\nico\\documents\\github\\motorest22\\assets\\scripts\\menu scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2D15AE3-A2A7-DB59-D4F9-AA2A34D5BDF4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Menu Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D15AE3-A2A7-DB59-D4F9-AA2A34D5BDF4}|Assembly-CSharp.csproj|C:\\Users\\Nico\\Documents\\GitHub\\MotoresT22\\assets\\scripts\\player scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2D15AE3-A2A7-DB59-D4F9-AA2A34D5BDF4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\DeathZone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DeathZone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Menu Scripts\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,10 +35,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerState.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\PlayerState.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\PlayerState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T18:35:19.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeathZone.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\DeathZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DeathZone.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\DeathZone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DeathZone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T18:31:47.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Nico\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu Scripts\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\Nico\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\MainMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\Menu Scripts\\MainMenu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -39,25 +73,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\Nico\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\Nico\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\PlayerMovement.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T16:42:24.39Z"
+              "WhenOpened": "2026-09-16T16:42:24.39Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\Nico\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\Nico\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Menu Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-16T16:31:39.597Z",
               "EditorCaption": ""

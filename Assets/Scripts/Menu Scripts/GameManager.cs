@@ -14,8 +14,10 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        if (pausePanel != null) pausePanel.SetActive(false);
-        if (deathPanel != null) deathPanel.SetActive(false);
+        if (pausePanel != null) 
+            pausePanel.SetActive(false);
+        if (deathPanel != null) 
+            deathPanel.SetActive(false);
         Time.timeScale = 1f;
     }
 
@@ -29,21 +31,24 @@ public class GameManager : MonoBehaviour
 
     public void TogglePause()
     {
-        if (isPaused) ResumeGame();
+        if (isPaused) 
+            ResumeGame();
         else PauseGame();
     }
 
     public void PauseGame()
     {
         isPaused = true;
-        if (pausePanel != null) pausePanel.SetActive(true);
+        if (pausePanel != null) 
+            pausePanel.SetActive(true);
         Time.timeScale = 0f;
     }
 
     public void ResumeGame()
     {
         isPaused = false;
-        if (pausePanel != null) pausePanel.SetActive(false);
+        if (pausePanel != null) 
+            pausePanel.SetActive(false);
         Time.timeScale = 1f;
     }
 
@@ -51,7 +56,7 @@ public class GameManager : MonoBehaviour
 
     public void ShowDeathScreen()
     {
-        if (deathPanel != null) deathPanel.SetActive(true);
+        deathPanel.SetActive(true);
         Time.timeScale = 0f;
     }
 
