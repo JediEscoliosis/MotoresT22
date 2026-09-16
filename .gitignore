@@ -33,6 +33,7 @@
 # Configuraciones de editores y herramientas
 .vscode/
 .idea/
+.vs/
 *.sln.DotSettings.user
 
 # Reportes de crash y dumps

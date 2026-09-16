@@ -1,16 +1,18 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Menú : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public GameObject mainMenu;
 
-    // Update is called once per frame
-    void Update()
+    public void QuitGame()
     {
-        
-    }
+        Application.Quit();
+        Debug.Log("Saliendo Del Juego...");
+    }    
+
+    public void PlayGame()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }    
 }
