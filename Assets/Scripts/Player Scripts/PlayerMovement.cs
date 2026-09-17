@@ -129,9 +129,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move()
     {
-        Vector3 targetPosition = rb.position + moveDirection * moveSpeed * Time.fixedDeltaTime;
-
-        rb.MovePosition(targetPosition);
+        Vector3 velocity = moveDirection * moveSpeed;
+        velocity.y = rb.linearVelocity.y; // conserva la velocidad vertical (salto/gravedad)
+        rb.linearVelocity = velocity;
     }
 
 

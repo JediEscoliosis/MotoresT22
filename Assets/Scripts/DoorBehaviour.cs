@@ -2,15 +2,19 @@ using UnityEngine;
 
 public class DoorBehaviour : MonoBehaviour
 {
-    public Animator doorAnimation;
+    [SerializeField] private Animator doorAnimation;
 
-    private void OntriggerEnter(Collider other)
+    //private static bool isOpen = false;
+
+    public void OpenDoor()
     {
-        doorAnimation.Play("DoorOpen");
+        doorAnimation.SetBool("isOpen", true);
+        //doorAnimation.SetBool("isClosed", false);
     }
 
-    private void OntriggerExit(Collider other)
+    public void CloseDoor()
     {
-        doorAnimation.Play("DoorClose");
+        doorAnimation.SetBool("isOpen", false);
+        //doorAnimation.SetBool("isClosed", true);
     }
 }
