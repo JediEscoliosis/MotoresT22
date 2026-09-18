@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 3596402988002091773}
   - component: {fileID: 7571133867740018421}
   - component: {fileID: 7775442200683917239}
+  - component: {fileID: 8671916802243606838}
   m_Layer: 3
-  m_Name: Brazo 2
+  m_Name: Arm 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.587, y: 0, z: 0.31}
-  m_LocalScale: {x: 0.56, y: 0.56, z: 0.56}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5028585974987255662}
@@ -65,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 1f58c5369bb5a914baf86d668b0809a6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -102,12 +103,37 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8671916802243606838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135134719885301179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a601550af95465f4c8f6047d063bf208, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aimCamera: {fileID: 6704504203427363788}
+  activationRadius: 6
+  metalMask:
+    serializedVersion: 2
+    m_Bits: 576
+  raycastMask:
+    serializedVersion: 2
+    m_Bits: 631
+  force: 50
+  distanceSpeed: 20
+  minimumDistance: 1
+  followStrength: 20
+  damping: 0
 --- !u!1 &2260587341454133215
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,8 +338,9 @@ GameObject:
   - component: {fileID: 1193480311297193955}
   - component: {fileID: 1881262239543759755}
   - component: {fileID: 980922795220122602}
+  - component: {fileID: 4928137573308458405}
   m_Layer: 3
-  m_Name: Brazo 1
+  m_Name: Arm 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -329,7 +356,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.6, y: 0, z: 0.317}
-  m_LocalScale: {x: 0.56, y: 0.56, z: 0.56}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5028585974987255662}
@@ -365,7 +392,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 1f58c5369bb5a914baf86d668b0809a6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -402,12 +429,37 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4928137573308458405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3559165342136624770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dda7925ce14cac54dadf8fd121609228, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aimCamera: {fileID: 6704504203427363788}
+  activationRadius: 6
+  metalMask:
+    serializedVersion: 2
+    m_Bits: 320
+  raycastMask:
+    serializedVersion: 2
+    m_Bits: 375
+  force: 50
+  distanceSpeed: 20
+  minimumDistance: 1
+  followStrength: 20
+  damping: 8
 --- !u!1 &3780699224469265081
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,8 +485,8 @@ Transform:
   m_GameObject: {fileID: 3780699224469265081}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1, z: 0}
-  m_LocalScale: {x: 1, y: 0.3, z: 1}
+  m_LocalPosition: {x: 0, y: -1.02, z: 0}
+  m_LocalScale: {x: 0.60387, y: 0.3, z: 0.606}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5028585974987255662}
@@ -540,6 +592,8 @@ GameObject:
   - component: {fileID: 1749121527039036185}
   - component: {fileID: 2942724742091878924}
   - component: {fileID: 7334916263002040985}
+  - component: {fileID: 5040974858678275423}
+  - component: {fileID: 3616371262150082464}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -598,7 +652,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 1f58c5369bb5a914baf86d668b0809a6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -690,8 +744,48 @@ MonoBehaviour:
   fallHeight: 3.5
   groundLayers:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 961
   groundCheck: {fileID: 6212676561900259351}
+--- !u!114 &5040974858678275423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6920286488522497088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9429a4ef68e21ef47877c3767753b33b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aimCamera: {fileID: 6704504203427363788}
+  actionOrigin: {fileID: 5028585974987255662}
+  universalMask:
+    serializedVersion: 2
+    m_Bits: 128
+  raycastMask:
+    serializedVersion: 2
+    m_Bits: 247
+  selectionRadius: 5
+  manipulationRadius: 10
+  minimumDistance: 2
+  distanceSpeed: 3
+  followStrength: 40
+  damping: 12
+  maxAcceleration: 100
+--- !u!114 &3616371262150082464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6920286488522497088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d71d9ee1f236bd4a932ff21d36967c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &7291130977337306380
 GameObject:
   m_ObjectHideFlags: 0
