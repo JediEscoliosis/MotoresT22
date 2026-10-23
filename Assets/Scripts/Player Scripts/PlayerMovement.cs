@@ -16,7 +16,6 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Salto")]
     [SerializeField, Min(0f)] private float jumpHeight = 1.5f;
-    [SerializeField, Min(1f)] private float fallHeight = 2.5f;
 
     [Header("Deteccion del Suelo")]
     [SerializeField] private LayerMask groundLayers;
@@ -50,7 +49,6 @@ public class PlayerMovement : MonoBehaviour
         CheckGround();
         Jump();
         RotatePlayer();
-        FallGravity();
     }
 
     private void ReadInput()
@@ -167,15 +165,7 @@ public class PlayerMovement : MonoBehaviour
 
         float blend = 1f - Mathf.Exp (-rotacionSmoothness * Time.deltaTime);
 
-        rb.MoveRotation (Quaternion.Slerp (rb.rotation,targetRotation, blend));
+        rb.MoveRotation (Quaternion.Slerp (rb.rotation,targetRotation, blend)); 
 
-    }
-
-    private void FallGravity()
-    {
-        if (rb.linearVelocity.y < 0f)
-        {
-            rb.AddForce(Physics.gravity * (fallHeight - 1f), ForceMode.Acceleration);
-        }
     }
 }

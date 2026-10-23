@@ -22,7 +22,7 @@ public abstract class ArmBehaviour : MonoBehaviour
 
     [SerializeField, Min(0.1f)] private float minimumDistance = 1f;
 
-    [SerializeField, Min(0f)] private float followStrength = 20f;
+    [SerializeField, Min(0f)] private float followStrength = 10f;
     [SerializeField, Min(0f)] private float damping = 8f;
 
     private Rigidbody selectedObject;

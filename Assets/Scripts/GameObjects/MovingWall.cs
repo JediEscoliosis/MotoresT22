@@ -12,10 +12,12 @@ public class MovingWall : MonoBehaviour
     private float moveSpeed = 2f;
 
     private Rigidbody wallBody;
+
     private Vector3 targetPosition;
+    private Vector3 initialPosition;
+    private Vector3 currentTarget;
 
     private bool initialized;
-    private bool activated;
     private bool isMoving;
 
     private void Awake()
@@ -29,23 +31,36 @@ public class MovingWall : MonoBehaviour
             return;
 
         wallBody = GetComponent<Rigidbody>();
-
+        
+        // Guardo la referencia a la posición inicial para uso posterior.
+        initialPosition = wallBody.position;
+        
         // Calcula el destino desde la posicion y orientacion iniciales.
-        targetPosition = wallBody.position + wallBody.rotation * movementOffset;
+        targetPosition = initialPosition + wallBody.rotation * movementOffset;
 
+        currentTarget = initialPosition;
         initialized = true;
     }
 
     public void MoveWall()
     {
-        if (!isActiveAndEnabled || activated)
+        if (!isActiveAndEnabled)
             return;
 
         // Asegura la inicializacion antes de recibir una orden externa.
         Initialize();
 
         // Inicia el movimiento sin repetirlo si llegan mas eventos.
-        activated = true;
+        currentTarget = targetPosition;
+        isMoving = true;
+    }
+
+    public void ReturnWall()
+    {
+        if (!isActiveAndEnabled)
+            return;
+        Initialize();
+        currentTarget = initialPosition;
         isMoving = true;
     }
 
@@ -55,7 +70,7 @@ public class MovingWall : MonoBehaviour
             return;
 
         // Avanza hacia el destino a una velocidad constante.
-        Vector3 nextPosition = Vector3.MoveTowards(wallBody.position,targetPosition,moveSpeed * Time.fixedDeltaTime);
+        Vector3 nextPosition = Vector3.MoveTowards(wallBody.position,currentTarget,moveSpeed * Time.fixedDeltaTime);
 
         // Mueve la pared mediante su Rigidbody cinematico.
         wallBody.MovePosition(nextPosition);
@@ -68,13 +83,15 @@ public class MovingWall : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         // Muestra el destino al seleccionar la pared.
+        Vector3 origin = Application.isPlaying && initialized ? initialPosition : transform.position;
         Vector3 destination = Application.isPlaying && initialized ? targetPosition : transform.position + transform.rotation * movementOffset;
 
         Color previousColor = Gizmos.color;
 
         Gizmos.color = Color.yellow;
-        Gizmos.DrawLine(transform.position, destination);
-        Gizmos.DrawWireSphere(destination, 0.2f);
+        Gizmos.DrawLine(origin, destination);
+        Gizmos.DrawWireSphere(destination, 0.2f); //Cubo a la 2da posición
+        Gizmos.DrawWireCube(origin, Vector3.one * 0.2f); // Cubo en la posición inicial
 
         Gizmos.color = previousColor;
     }
