@@ -1,0 +1,13 @@
+L-Sonido para salto 
+L-Sonido para el ventilador
+L-Sonido para cuando los objetos metálicos colisionen con otras cosas
+L-Sonido de disparo (enemigo)
+L-Sonido ambiental 
+L-Sonido de imán (usar el mismo para la Q, E y Click)
+L-Sonido de destrucción para jugador y enemigos (explosión)
+L-Sonido de derrota
+L-Sonido de puerta
+L-Sonido de victoria
+-COMPLETAR (si se ocurre otro sonido)
+
+
