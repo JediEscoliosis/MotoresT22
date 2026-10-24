@@ -16,6 +16,8 @@ public class PressurePlate : MonoBehaviour
     private Vector3 originalPosition;
     private bool isPressed = false;
 
+    //Variables para comparar layers
+
     void Start()
     {
         originalPosition = transform.position;
@@ -23,7 +25,7 @@ public class PressurePlate : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!string.IsNullOrEmpty(requiredTag) && !other.CompareTag(requiredTag))
+        if (!string.IsNullOrEmpty(requiredTag) && !other.CompareTag(requiredTag) || !(other.gameObject.layer == 7))
             return;
 
         objectsOnPlate.Add(other);
