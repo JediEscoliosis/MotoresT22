@@ -1,7 +1,9 @@
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
+
 [RequireComponent(typeof(Rigidbody), typeof(CapsuleCollider))]
+
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movimiento")]
@@ -9,13 +11,13 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Rotacion")]
     [SerializeField] private ThirdPersonCamera cameraController;
-    [SerializeField, Min(0.1f)] private float rotacionSmoothness = 12f;
+    [SerializeField, Min(0.1f)] private float rotationSmoothness = 12f;
 
     [Header("Camara")]
     [SerializeField] private Transform cameraTransform;
 
     [Header("Salto")]
-    [SerializeField, Min(0f)] private float jumpHeight = 1.5f;
+    [SerializeField, Min(0f)] private float jumpStrength = 1.5f;
 
     [Header("Deteccion del Suelo")]
     [SerializeField] private LayerMask groundLayers;
@@ -115,7 +117,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Vector3 velocity = rb.linearVelocity;
 
-            velocity.y = Mathf.Sqrt(2f * Mathf.Abs(Physics.gravity.y) * jumpHeight);
+            velocity.y = Mathf.Sqrt(2f * Mathf.Abs(Physics.gravity.y) * jumpStrength);
 
             rb.linearVelocity = velocity;
             isGrounded = false;
@@ -163,7 +165,7 @@ public class PlayerMovement : MonoBehaviour
 
         quaternion targetRotation = Quaternion.LookRotation(moveDirection, Vector3.up);
 
-        float blend = 1f - Mathf.Exp (-rotacionSmoothness * Time.deltaTime);
+        float blend = 1f - Mathf.Exp (-rotationSmoothness * Time.deltaTime);
 
         rb.MoveRotation (Quaternion.Slerp (rb.rotation,targetRotation, blend)); 
 
