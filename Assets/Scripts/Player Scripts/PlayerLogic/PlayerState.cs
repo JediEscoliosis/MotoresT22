@@ -7,6 +7,13 @@ public class PlayerState : MonoBehaviour
 
     public void Die()
     {
-        gameManager.ShowDeathScreen();
+        if (gameManager != null)
+        {
+            gameManager.ShowDeathScreen();
+        }
+        else
+        {
+            Debug.LogError("¡gameManager es NULL en PlayerState!");
+        }
     }
 }

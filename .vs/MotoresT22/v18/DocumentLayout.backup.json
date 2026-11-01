@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\TurretScripts\\TurretBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TurretScripts\\TurretBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\PressurePlateBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PressurePlateBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,19 +26,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T16:29:08.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PressurePlateBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\PressurePlateBehaviour.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PressurePlateBehaviour.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\PressurePlateBehaviour.cs*",
-              "RelativeToolTip": "Assets\\Scripts\\PressurePlateBehaviour.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABRAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\PressurePlateBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PressurePlateBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T18:32:00.756Z",
+              "WhenOpened": "2026-10-24T18:35:49.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T16:11:48.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TurretBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\TurretScripts\\TurretBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TurretScripts\\TurretBehaviour.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\TurretScripts\\TurretBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TurretScripts\\TurretBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T13:21:27.999Z",
               "EditorCaption": ""
             }
           ]
