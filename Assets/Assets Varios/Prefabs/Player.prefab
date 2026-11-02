@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7775442200683917239}
   - component: {fileID: 8671916802243606838}
   m_Layer: 3
-  m_Name: Arm 2
+  m_Name: AttractorArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -132,7 +132,7 @@ MonoBehaviour:
   force: 50
   distanceSpeed: 20
   minimumDistance: 1
-  followStrength: 20
+  followStrength: 10
   damping: 0
 --- !u!1 &2260587341454133215
 GameObject:
@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 980922795220122602}
   - component: {fileID: 4928137573308458405}
   m_Layer: 3
-  m_Name: Arm 1
+  m_Name: Repulsor Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -458,7 +458,7 @@ MonoBehaviour:
   force: 50
   distanceSpeed: 20
   minimumDistance: 1
-  followStrength: 20
+  followStrength: 10
   damping: 8
 --- !u!1 &3780699224469265081
 GameObject:
@@ -736,12 +736,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8735660546bb71d4986d4936b5305dcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 7
   cameraController: {fileID: 231396583314741413}
   rotacionSmoothness: 12
   cameraTransform: {fileID: 9033727065415952086}
   jumpHeight: 1.5
-  fallHeight: 3.5
   groundLayers:
     serializedVersion: 2
     m_Bits: 961
