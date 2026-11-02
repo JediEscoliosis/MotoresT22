@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\PressurePlateBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PressurePlateBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\TurretScripts\\TurretBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TurretScripts\\TurretBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\TurretScripts\\TurretBullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TurretScripts\\TurretBullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Menu Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PressurePlateBehaviour.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\PressurePlateBehaviour.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PressurePlateBehaviour.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\PressurePlateBehaviour.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PressurePlateBehaviour.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAByAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "PlayerState.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerState.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T18:35:49.828Z",
+              "WhenOpened": "2026-11-01T14:49:22.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menu Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menu Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T14:17:00.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TurretBullet.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\TurretScripts\\TurretBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TurretScripts\\TurretBullet.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\TurretScripts\\TurretBullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TurretScripts\\TurretBullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T13:42:15.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TurretBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\TurretScripts\\TurretBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TurretScripts\\TurretBehaviour.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\TurretScripts\\TurretBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TurretScripts\\TurretBehaviour.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAGEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T13:41:38.559Z",
               "EditorCaption": ""
             }
           ]
