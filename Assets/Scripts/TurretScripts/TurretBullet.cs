@@ -27,8 +27,18 @@ public class TurretBullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        PlayerState playerState = other.GetComponentInParent<PlayerState>();
+        // 1) El escudo se revisa PRIMERO, antes que al jugador
+        Shield shield = other.GetComponentInParent<Shield>();
+        if (shield != null)
+        {
+            if (shield.IsActive)
+                Destroy(gameObject);   // escudo activo: la bala se rompe, nadie muere
 
+            return;                    // escudo inactivo: la bala lo ignora y sigue hacia el jugador
+        }
+
+        // 2) Jugador
+        PlayerState playerState = other.GetComponentInParent<PlayerState>();
         if (playerState != null)
         {
             playerState.Die();
@@ -36,6 +46,7 @@ public class TurretBullet : MonoBehaviour
             return;
         }
 
+        // 3) Cualquier otra cosa (paredes, etc.)
         Destroy(gameObject);
     }
 }
