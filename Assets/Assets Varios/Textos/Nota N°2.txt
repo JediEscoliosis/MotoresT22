@@ -1,0 +1,7 @@
+"Hemos terminado el diseño del nuevo chasis. 
+Necesitábamos una estructura resistente, pero lo suficientemente ligera para permitir movimientos precisos. 
+La aleación soportó todas las pruebas de impacto y resistencia térmica. 
+También conseguimos reducir considerablemente el peso sin comprometer su estabilidad. 
+Durante las últimas pruebas, el armazón respondió incluso mejor de lo esperado. 
+Si logramos integrar correctamente los servomotores, tendremos una plataforma funcional capaz de soportar prácticamente cualquier tipo de extremidad. 
+Creo que finalmente estamos cerca de conseguir un modelo verdaderamente adaptable."

@@ -1,0 +1,7 @@
+"Hay algo extraño en los movimientos de prueba. 
+El sistema está ejecutando acciones que no aparecen en las rutinas programadas. 
+Pensé que era un problema de calibración, pero los movimientos son demasiado precisos para tratarse de un error. 
+Incluso parece anticiparse a nuestras instrucciones. 
+Durante una de las pruebas, el prototipo movió uno de sus brazos antes de recibir la orden correspondiente. 
+Revisé las conexiones, los servomotores y los registros de actividad, pero no encontré ninguna anomalía. 
+Alguien está enviando órdenes desde otro lugar, aunque todavía no consigo identificar el origen."
