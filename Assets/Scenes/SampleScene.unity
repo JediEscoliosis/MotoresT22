@@ -19598,6 +19598,14 @@ PrefabInstance:
       propertyPath: secondZone
       value: 
       objectReference: {fileID: 641490850}
+    - target: {fileID: 7983016979940323479, guid: 446c4069e6c12954f93748d5783c773c, type: 3}
+      propertyPath: onActivated.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7983016979940323479, guid: 446c4069e6c12954f93748d5783c773c, type: 3}
+      propertyPath: onActivated.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8976118436016443128, guid: 446c4069e6c12954f93748d5783c773c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24.69
