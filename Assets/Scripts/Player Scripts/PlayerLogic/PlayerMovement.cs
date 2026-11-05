@@ -21,6 +21,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundLayers;
     [SerializeField] private Transform groundCheck;
 
+    [Header("Animaciones")]
+    [SerializeField] private Animator anim;
+
 
     private Rigidbody rb;
 
@@ -33,6 +36,10 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
+
+        if (anim == null )
+            anim = GetComponentInChildren<Animator>();
+
     }
 
     private void Update()
@@ -40,6 +47,8 @@ public class PlayerMovement : MonoBehaviour
         //Estas funciones van aca para que cada frame calcule los inputs y el transform de la capasula.
         ReadInput();
         CalculateMovement();
+
+        UptadeAnimations();
     }
 
     private void FixedUpdate()
@@ -167,5 +176,20 @@ public class PlayerMovement : MonoBehaviour
 
         rb.MoveRotation (Quaternion.Slerp (rb.rotation,targetRotation, blend)); 
 
+    }
+
+    private void UptadeAnimations()
+    {
+        if (anim == null || anim.runtimeAnimatorController == null)
+            return;
+
+        // Ignora la velocidad vertical del salto y la caída.
+        Vector3 horizontalVelocity = rb.linearVelocity;
+        horizontalVelocity.y = 0f;
+
+        // Activa caminar cuando se desplaza por el suelo.
+        bool walking = isGrounded && horizontalVelocity.sqrMagnitude > 0.01f;
+
+        anim.SetBool("isWalking", walking);
     }
 }

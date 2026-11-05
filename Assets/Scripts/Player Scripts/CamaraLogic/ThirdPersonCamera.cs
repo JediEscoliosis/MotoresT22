@@ -24,6 +24,9 @@ public class ThirdPersonCamera : MonoBehaviour
     [SerializeField] private Rigidbody playerBody;
     [SerializeField] private GameObject crosshair;
 
+    [Header("Animaciones")]
+    [SerializeField] private Animator anim;
+
     public bool IsAiming { get; private set; }
 
     private float horizontalRotacion;
@@ -41,6 +44,16 @@ public class ThirdPersonCamera : MonoBehaviour
 
         if (crosshair != null )
             crosshair.SetActive(false);
+        if (crosshair != null)
+            crosshair.SetActive(false);
+
+        // ANIMACIONES 2: buscamos en el jugador, no en la cámara.
+        // Si lo asignaste desde el Inspector, respetamos esa referencia.
+        if (anim == null && playerBody != null)
+            anim = playerBody.GetComponentInChildren<Animator>();
+
+        UpdateAimAnimation();
+
     }
 
     private void Start()
@@ -86,6 +99,9 @@ public class ThirdPersonCamera : MonoBehaviour
 
         IsAiming = aimPressed;
 
+        // ANIMACIONES 3: la animación usa el mismo estado que la cámara.
+        UpdateAimAnimation();
+
 
         //muestra y oculta la mira
         if (crosshair != null && crosshair.activeSelf != IsAiming)
@@ -99,6 +115,13 @@ public class ThirdPersonCamera : MonoBehaviour
 
         RotateCamera();
 
+    }
+
+    private void UpdateAimAnimation()
+    {
+        if (anim == null || anim.runtimeAnimatorController == null)
+            return;
+        anim.SetBool("isAiming", IsAiming);
     }
 
 
@@ -170,6 +193,9 @@ public class ThirdPersonCamera : MonoBehaviour
     private void OnDisable()
     {
         IsAiming = false;
+
+        // ANIMACIONES 5: deja de apuntar al desactivar este script.
+        UpdateAimAnimation();
 
         if (crosshair != null)
             crosshair.SetActive(false);
