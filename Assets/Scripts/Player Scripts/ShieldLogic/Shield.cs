@@ -38,6 +38,9 @@ public class Shield : MonoBehaviour
         }
         else if (state == State.Active)
         {
+            //parte del bloque F para hacer que el audio ambiente se escuche menos
+            float ratio = Mathf.Clamp01(remaining / duration);
+            AudioManager.Instance?.SetShieldAudioFilter(true, ratio);
             remaining -= Time.deltaTime;
             if (remaining <= 0f) EndShield();
         }
@@ -48,13 +51,17 @@ public class Shield : MonoBehaviour
         state = State.Active;
         remaining = duration;                
         visual.SetActive(true);
+
+        AudioManager.Instance?.SetShieldAudioFilter(true, 1f);
     }
 
     void EndShield()
     {
         visual.SetActive(false);
         state = State.Cooldown;              
-        timer.StartTimer(cooldown);          
+        timer.StartTimer(cooldown);
+
+        AudioManager.Instance?.SetShieldAudioFilter(false, 0f);
     }
 
     void EndCooldown()

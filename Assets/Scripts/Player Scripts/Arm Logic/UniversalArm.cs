@@ -63,6 +63,7 @@ public class UniversalArm : MonoBehaviour
     private void Update()
     {
         Mouse mouse = Mouse.current;
+        float distanceInput = 0f;
 
         if (mouse == null || aimCamera == null)
         {
@@ -85,8 +86,6 @@ public class UniversalArm : MonoBehaviour
 
         // Q acerca y E aleja el objeto seleccionado
 
-        float distanceInput = 0f;
-
         if (Keyboard.current != null)
         {
             if (Keyboard.current.qKey.isPressed)
@@ -103,6 +102,13 @@ public class UniversalArm : MonoBehaviour
         float maximumDistance = Mathf.Max(minimumDistance,Vector3.Distance(ray.origin, OriginPosition) + manipulationRadius);
 
         targetDistance = Mathf.Clamp(targetDistance,minimumDistance,maximumDistance);
+
+        //Bloque F: Actualiza tono según atracción, repulsión y velocidad
+        bool isAttracting = distanceInput < 0f;
+        bool isRepelling = distanceInput > 0f;
+        float vel = heldObject != null ? heldObject.linearVelocity.magnitude : 0f;
+
+        AudioManager.Instance?.SetManipulatorPitch(isRepelling, isAttracting, vel);
     }
 
     //Crea un rayo desde el centro de la vista de la camara en la direccion a la que se apunta
@@ -193,6 +199,8 @@ public class UniversalArm : MonoBehaviour
             heldObject.useGravity = originalUseGravity;
 
         heldObject = null;
+
+        AudioManager.Instance?.SetManipulatorPitch(false, false, 0f);
     }
 
     private void OnDisable()

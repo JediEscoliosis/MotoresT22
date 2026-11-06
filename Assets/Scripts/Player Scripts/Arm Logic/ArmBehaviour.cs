@@ -51,7 +51,14 @@ public abstract class ArmBehaviour : MonoBehaviour
 
         if (!activated)
             selectedObject = null;
+        if (activated) //bloque F
+        {
+            float vel = selectedObject != null ? selectedObject.linearVelocity.magnitude : 0f;
+            bool isRepelling = DistanceDirection() > 0f;
+            bool isAttracting = DistanceDirection() < 0f;
 
+            AudioManager.Instance?.SetManipulatorPitch(isRepelling, isAttracting, vel);
+        }
         wasActivated = activated;
     }
 
@@ -119,6 +126,8 @@ public abstract class ArmBehaviour : MonoBehaviour
     {
         selectedObject = null;
         wasActivated = false;
+        //Reestablece el tono normal al apagarse el brazo.
+        AudioManager.Instance?.SetManipulatorPitch(false, false, 0f);
     }
 
     //Gizmo para verlo en el gamescene
