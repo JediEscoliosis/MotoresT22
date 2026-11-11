@@ -1937,10 +1937,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 526880088950867516, guid: ee5b5a01860d58b4fa242af97505e250, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 526880088950867516, guid: ee5b5a01860d58b4fa242af97505e250, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 526880088950867516, guid: ee5b5a01860d58b4fa242af97505e250, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 608965747785699366, guid: ee5b5a01860d58b4fa242af97505e250, type: 3}
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
+    - target: {fileID: 9116068864609731331, guid: ee5b5a01860d58b4fa242af97505e250, type: 3}
+      propertyPath: menuMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: 0756ca3899f08864ea2e839a7226231b, type: 3}
+    - target: {fileID: 9116068864609731331, guid: ee5b5a01860d58b4fa242af97505e250, type: 3}
+      propertyPath: deathMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: aace7335f41742d40b5f3d5bcb12d4f7, type: 3}
+    - target: {fileID: 9116068864609731331, guid: ee5b5a01860d58b4fa242af97505e250, type: 3}
+      propertyPath: pauseMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: 3daf9e6b15ae63a40bebe444f00eef82, type: 3}
+    - target: {fileID: 9116068864609731331, guid: ee5b5a01860d58b4fa242af97505e250, type: 3}
+      propertyPath: victoryMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: d437b1b15dc42e542ae420ab383e389b, type: 3}
     - target: {fileID: 9116068864609731331, guid: ee5b5a01860d58b4fa242af97505e250, type: 3}
       propertyPath: estadoInicial
       value: 1
