@@ -108,7 +108,6 @@ public class UniversalArm : MonoBehaviour
         bool isRepelling = distanceInput > 0f;
         float vel = heldObject != null ? heldObject.linearVelocity.magnitude : 0f;
 
-        AudioManager.Instance?.SetManipulatorPitch(isRepelling, isAttracting, vel);
     }
 
     //Crea un rayo desde el centro de la vista de la camara en la direccion a la que se apunta
@@ -200,7 +199,6 @@ public class UniversalArm : MonoBehaviour
 
         heldObject = null;
 
-        AudioManager.Instance?.SetManipulatorPitch(false, false, 0f);
     }
 
     private void OnDisable()

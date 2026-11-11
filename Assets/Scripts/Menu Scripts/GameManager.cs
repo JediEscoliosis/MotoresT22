@@ -45,6 +45,8 @@ public class GameManager : MonoBehaviour
         if (pausePanel != null)
             pausePanel.SetActive(true);
         Time.timeScale = 0f;
+
+        AudioManager.Instance?.EnterPause();
     }
 
     public void ResumeGame()
@@ -53,6 +55,8 @@ public class GameManager : MonoBehaviour
         if (pausePanel != null)
             pausePanel.SetActive(false);
         Time.timeScale = 1f;
+
+        AudioManager.Instance?.EnterGame();
     }
 
     // ---------- MUERTE ----------
@@ -62,6 +66,8 @@ public class GameManager : MonoBehaviour
         deathPanel.SetActive(true);
         Time.timeScale = 0f;
         SetCursor(true);
+
+        AudioManager.Instance?.EnterDeath();
     }
 
     // ---------- BOTONES ----------
