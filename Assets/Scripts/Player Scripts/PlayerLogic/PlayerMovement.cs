@@ -24,6 +24,10 @@ public class PlayerMovement : MonoBehaviour
     [Header("Animaciones")]
     [SerializeField] private Animator anim;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource sfxSource;
+    [SerializeField] private AudioClip jumpClip;
+    [SerializeField, Range(0f, 1f)] private float jumpVolume = 1f;
 
     private Rigidbody rb;
 
@@ -128,6 +132,10 @@ public class PlayerMovement : MonoBehaviour
 
             rb.linearVelocity = velocity;
             isGrounded = false;
+
+            // Sonido del salto
+            if (sfxSource != null && jumpClip != null)
+                sfxSource.PlayOneShot(jumpClip, jumpVolume);
         }
 
         jumpRequested = false;

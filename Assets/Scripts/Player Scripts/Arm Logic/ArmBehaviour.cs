@@ -57,7 +57,7 @@ public abstract class ArmBehaviour : MonoBehaviour
             bool isRepelling = DistanceDirection() > 0f;
             bool isAttracting = DistanceDirection() < 0f;
 
-            
+
         }
         wasActivated = activated;
     }
@@ -69,9 +69,9 @@ public abstract class ArmBehaviour : MonoBehaviour
         Ray ray = aimCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
 
         // La camara puede estar detras del personaje.
-        float rayLength =Vector3.Distance(ray.origin, transform.position) + activationRadius;
+        float rayLength = Vector3.Distance(ray.origin, transform.position) + activationRadius;
 
-        if (!Physics.Raycast(ray,out RaycastHit hit,rayLength,raycastMask,QueryTriggerInteraction.Ignore))
+        if (!Physics.Raycast(ray, out RaycastHit hit, rayLength, raycastMask, QueryTriggerInteraction.Ignore))
         {
             return;
         }
@@ -88,14 +88,14 @@ public abstract class ArmBehaviour : MonoBehaviour
         if (candidate == null || candidate.isKinematic)
             return;
 
-        if (Vector3.Distance(transform.position,candidate.worldCenterOfMass) > activationRadius)
+        if (Vector3.Distance(transform.position, candidate.worldCenterOfMass) > activationRadius)
         {
             return;
         }
 
         selectedObject = candidate;
 
-        targetDistance = Mathf.Max(minimumDistance,Vector3.Dot(candidate.worldCenterOfMass - ray.origin,ray.direction));
+        targetDistance = Mathf.Max(minimumDistance, Vector3.Dot(candidate.worldCenterOfMass - ray.origin, ray.direction));
     }
 
     protected void FixedUpdate()
@@ -110,7 +110,7 @@ public abstract class ArmBehaviour : MonoBehaviour
         }
 
         // Al salir del alcance del brazo, se libera.
-        if (Vector3.Distance(transform.position,selectedObject.worldCenterOfMass) > activationRadius)
+        if (Vector3.Distance(transform.position, selectedObject.worldCenterOfMass) > activationRadius)
         {
             selectedObject = null;
             return;
@@ -126,7 +126,7 @@ public abstract class ArmBehaviour : MonoBehaviour
     {
         selectedObject = null;
         wasActivated = false;
-        
+
     }
 
     //Gizmo para verlo en el gamescene
@@ -142,12 +142,12 @@ public abstract class ArmBehaviour : MonoBehaviour
         targetDistance +=
             DistanceDirection() * distanceSpeed * Time.fixedDeltaTime;
 
-        targetDistance = Mathf.Clamp(targetDistance,minimumDistance,Vector3.Distance(ray.origin, transform.position) + activationRadius);
+        targetDistance = Mathf.Clamp(targetDistance, minimumDistance, Vector3.Distance(ray.origin, transform.position) + activationRadius);
 
         Vector3 targetPosition = ray.GetPoint(targetDistance);
 
-        Vector3 appliedForce =(targetPosition - rb.worldCenterOfMass) * followStrength- rb.linearVelocity * damping;
+        Vector3 appliedForce = (targetPosition - rb.worldCenterOfMass) * followStrength - rb.linearVelocity * damping;
 
-        rb.AddForce(Vector3.ClampMagnitude(appliedForce, force),ForceMode.Force);
+        rb.AddForce(Vector3.ClampMagnitude(appliedForce, force), ForceMode.Force);
     }
 }

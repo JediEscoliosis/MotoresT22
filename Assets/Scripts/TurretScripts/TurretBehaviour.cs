@@ -15,6 +15,11 @@ public class TurretBehaviour : MonoBehaviour
     [Header("Proyectil")]
     [SerializeField] private GameObject bulletPrefab;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip shootClip;
+    [SerializeField, Range(0f, 1f)] private float shootVolume = 1f;
+
     [Header("Objetivo")]
     [SerializeField] private LayerMask targetLayer;
 
@@ -76,6 +81,10 @@ public class TurretBehaviour : MonoBehaviour
         {
             bullet.SetDamage(damage);
         }
+
+        // Sonido del disparo
+        if (audioSource != null && shootClip != null)
+            audioSource.PlayOneShot(shootClip, shootVolume);
     }
 
     private void RotateToTarget()

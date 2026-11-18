@@ -39,6 +39,9 @@ public class UniversalArm : MonoBehaviour
     [SerializeField, Min(0f)]
     private float maxAcceleration = 100f;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+
     private Rigidbody heldObject;
     private bool originalUseGravity;
     private float targetDistance;
@@ -79,7 +82,11 @@ public class UniversalArm : MonoBehaviour
 
         // Selecciona solo al comenzar el clic.
         if (mouse.leftButton.wasPressedThisFrame)
+        {
             TrySelectObject();
+            if (heldObject != null && audioSource != null)
+                audioSource.Play();
+        }
 
         if (heldObject == null)
             return;
@@ -195,10 +202,14 @@ public class UniversalArm : MonoBehaviour
     private void ReleaseObject()
     {
         if (heldObject != null)
+        {
             heldObject.useGravity = originalUseGravity;
 
-        heldObject = null;
+            if (audioSource != null)
+                audioSource.Stop();
+        }
 
+        heldObject = null;
     }
 
     private void OnDisable()

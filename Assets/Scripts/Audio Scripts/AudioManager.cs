@@ -88,6 +88,6 @@ public class AudioManager : MonoBehaviour
     void Update()
     {
         actual = Mathf.MoveTowards(actual, objetivo, velocidad * Time.unscaledDeltaTime);
-        mixer.SetFloat("AmbienteCutoff", actual);
+        mixer.SetFloat("AmbienceCutoff", actual);
     }
 }

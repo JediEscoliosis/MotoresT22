@@ -9,10 +9,13 @@ public class Shield : MonoBehaviour
     [SerializeField] float duration = 2f;
     [SerializeField] float cooldown = 8f;
     [SerializeField] string projectileTag = "Projectile";
-    [SerializeField] GameObject visual;      
+    [SerializeField] GameObject visual;
 
     [Header("References")]
-    [SerializeField] Timer timer;            
+    [SerializeField] Timer timer;
+
+    [Header("Audio")]
+    [SerializeField] AudioSource activateSource;   // AudioSource con el SFX, conectado al mixer
 
     State state = State.Ready;
     float remaining;
@@ -49,8 +52,10 @@ public class Shield : MonoBehaviour
     void Activate()
     {
         state = State.Active;
-        remaining = duration;                
+        remaining = duration;
         visual.SetActive(true);
+
+        if (activateSource != null) activateSource.Play();
 
         AudioManager.Instance?.SetShieldAudioFilter(true, 1f);
     }
@@ -58,7 +63,7 @@ public class Shield : MonoBehaviour
     void EndShield()
     {
         visual.SetActive(false);
-        state = State.Cooldown;              
+        state = State.Cooldown;
         timer.StartTimer(cooldown);
 
         AudioManager.Instance?.SetShieldAudioFilter(false, 0f);
@@ -66,12 +71,12 @@ public class Shield : MonoBehaviour
 
     void EndCooldown()
     {
-        state = State.Ready;                 
+        state = State.Ready;
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (IsActive && other.CompareTag(projectileTag))
-            Destroy(other.gameObject);       
+            Destroy(other.gameObject);
     }
 }
