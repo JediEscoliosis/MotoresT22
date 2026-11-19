@@ -3,40 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Library\\PackageCache\\com.unity.ugui@9b7e7eef789d\\Runtime\\UGUI\\UI\\Core\\Button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@9b7e7eef789d\\Runtime\\UGUI\\UI\\Core\\Button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Audio Scripts\\AudioManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Audio Scripts\\AudioManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\ShieldLogic\\Shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player Scripts\\ShieldLogic\\Shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Menu Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\Arm Logic\\UniversalArm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player Scripts\\Arm Logic\\UniversalArm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\Arm Logic\\ArmBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player Scripts\\Arm Logic\\ArmBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Audio Scripts\\AudioManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Audio Scripts\\AudioManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Menu Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Menu Scripts\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Audio Scripts\\AudioManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Audio Scripts\\AudioManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\ShieldLogic\\Shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player Scripts\\ShieldLogic\\Shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\GameObjectScripts\\Collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameObjectScripts\\Collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,112 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Button.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Library\\PackageCache\\com.unity.ugui@9b7e7eef789d\\Runtime\\UGUI\\UI\\Core\\Button.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@9b7e7eef789d\\Runtime\\UGUI\\UI\\Core\\Button.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Library\\PackageCache\\com.unity.ugui@9b7e7eef789d\\Runtime\\UGUI\\UI\\Core\\Button.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@9b7e7eef789d\\Runtime\\UGUI\\UI\\Core\\Button.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAswEUAAAAfAAAAAAAAAA==",
+              "Title": "PlayerState.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerState.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-16T23:22:29.551Z",
+              "WhenOpened": "2026-11-19T04:40:06.054Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Shield.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\ShieldLogic\\Shield.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\ShieldLogic\\Shield.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\ShieldLogic\\Shield.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\ShieldLogic\\Shield.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T19:32:59.98Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Menu Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Menu Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T18:26:31.769Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UniversalArm.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\Arm Logic\\UniversalArm.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\Arm Logic\\UniversalArm.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\Arm Logic\\UniversalArm.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\Arm Logic\\UniversalArm.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAjwMgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T18:12:37.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ArmBehaviour.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\Arm Logic\\ArmBehaviour.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\Arm Logic\\ArmBehaviour.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\Arm Logic\\ArmBehaviour.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\Arm Logic\\ArmBehaviour.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAjwH8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T18:12:06.678Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AudioManager.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Audio Scripts\\AudioManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Audio Scripts\\AudioManager.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Audio Scripts\\AudioManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Audio Scripts\\AudioManager.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T18:11:18.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\PlayerLogic\\PlayerMovement.cs",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAA7Lq3IvEAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T17:22:52.681Z"
+              "WhenOpened": "2026-11-19T04:39:31.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menu Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menu Scripts\\GameManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T04:39:00.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Collectible.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\GameObjectScripts\\Collectible.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObjectScripts\\Collectible.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\GameObjectScripts\\Collectible.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameObjectScripts\\Collectible.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAHIAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T00:24:23.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Shield.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\ShieldLogic\\Shield.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\ShieldLogic\\Shield.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Player Scripts\\ShieldLogic\\Shield.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\ShieldLogic\\Shield.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T19:32:59.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Audio Scripts\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Audio Scripts\\AudioManager.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Audio Scripts\\AudioManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Audio Scripts\\AudioManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T20:05:30.369Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Menu Scripts\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub\\MotoresT22\\Assets\\Scripts\\Menu Scripts\\MainMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Menu Scripts\\MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-16T23:05:54.843Z",
+              "WhenOpened": "2026-11-11T18:11:18.385Z",
               "EditorCaption": ""
             }
           ]

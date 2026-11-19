@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Collectible : MonoBehaviour
 {
@@ -17,6 +18,9 @@ public class Collectible : MonoBehaviour
     [SerializeField] private float floatPeriod = 2f;      // un sube y baja completo cada 2 segundos
     [SerializeField] private bool randomizeStart = false; // true = cada uno arranca en un momento distinto
 
+    [Header("Mixer")]
+    [SerializeField] private AudioMixerGroup sfxGroup;
+    [SerializeField] private AudioMixerGroup voiceGroup;
     // Compartidas por TODOS los coleccionables.
     private static readonly List<AudioSource> activeSources = new List<AudioSource>();
     private static GameObject currentAudio;
@@ -97,6 +101,7 @@ public class Collectible : MonoBehaviour
             sfx.clip = pickupSfx;
             sfx.volume = sfxVolume;
             sfx.spatialBlend = 0f;                            // 2D, se oye igual en todos lados
+            sfx.outputAudioMixerGroup = sfxGroup;             //Asignación a su respectivo mixer
             sfx.PlayScheduled(start);
             activeSources.Add(sfx);
         }
@@ -107,6 +112,7 @@ public class Collectible : MonoBehaviour
             voice.clip = voiceLine;
             voice.volume = voiceVolume;
             voice.spatialBlend = 0f;
+            voice.outputAudioMixerGroup = voiceGroup;           //Asignación a su respectivo mixer
             voice.PlayScheduled(start + sfxLength + voiceDelay);
             activeSources.Add(voice);
         }

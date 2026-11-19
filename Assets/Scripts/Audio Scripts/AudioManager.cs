@@ -21,10 +21,12 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioMixerSnapshot menu, game, pause, death, victory;
 
     [Header("Filtro del escudo")]
-    [SerializeField] float cutoffAbierto = 22000f;
-    [SerializeField] float cutoffEscudo = 800f;
-    [SerializeField] float velocidad = 40000f;
-
+    [SerializeField] string ambienceParam = "AmbienceCutoff";
+    [SerializeField] string sfxParam = "SFXCutoff";
+    [SerializeField] float cutoffAbierto = 5000f;
+    [SerializeField] float cutoffAmbiente = 500f;
+    [SerializeField] float cutoffSfx = 4000f;
+    [SerializeField] float velocidad = 0.2f;
     float objetivo, actual;
 
     void Awake()
@@ -32,7 +34,7 @@ public class AudioManager : MonoBehaviour
         if (Instance != null && Instance != this) { Destroy(gameObject); return; }
         Instance = this;
         mixer.updateMode = AudioMixerUpdateMode.UnscaledTime;
-        objetivo = actual = cutoffAbierto;
+        objetivo = actual = 0f;
     }
 
     void Start()
@@ -80,14 +82,21 @@ public class AudioManager : MonoBehaviour
     }
 
     // ---- Bloque F: lo llama Shield ----
-    public void SetShieldAudioFilter(bool activo, float ratio)
+    public void SetShieldAudioFilter(bool activo)
     {
-        objetivo = activo ? Mathf.Lerp(cutoffAbierto, cutoffEscudo, ratio) : cutoffAbierto;
+        objetivo = activo ? 1f : 0f;
     }
 
     void Update()
     {
+        // Avanza suavemente entre 0 (apagado) y 1 (prendido)
         actual = Mathf.MoveTowards(actual, objetivo, velocidad * Time.unscaledDeltaTime);
-        mixer.SetFloat("AmbienceCutoff", actual);
+
+        // Pasa directamente de cutoffAbierto (ej. 8000 Hz) a cutoffAmbiente/Sfx (ej. 600 Hz)
+        float hzAmbiente = Mathf.Lerp(cutoffAbierto, cutoffAmbiente, actual);
+        float hzSfx = Mathf.Lerp(cutoffAbierto, cutoffSfx, actual);
+
+        mixer.SetFloat(ambienceParam, hzAmbiente);
+        mixer.SetFloat(sfxParam, hzSfx);
     }
 }
